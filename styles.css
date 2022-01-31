@@ -1,5 +1,6 @@
 /* Master styles */
 body {
+    font-family: 'Playfair Display', serif;
     margin: 0px;
 }
 
@@ -12,7 +13,7 @@ body {
 .nav-wrapper {
     display: flex;
     justify-content: space-between;
-    padding: 38px;
+    padding: 30px;
 }
 
 .left-side {
@@ -32,7 +33,7 @@ body {
 }
 
 .nav-link-wrapper a {
-    color: #8a8a8a;
+    color: #918a89;
     text-decoration: none;
     transition: color 0.5s;
 }
@@ -90,5 +91,28 @@ body {
 .img-darken {
     transition: 1s;
     filter: brightness(40%);
+}
+
+/* About page styles */
+
+.two-column-wrapper{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.profile-image-wrapper img {
+    width: 100%;
+}
+
+.profile-content-wrapper{
+    padding: 30px;
+}
+
+.profile-content-wrapper h1{
+    color: #d19571;
+}
+
+.profile-content-wrapper h2 {
+    color: #656152;
 }
 
